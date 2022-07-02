@@ -1,0 +1,34 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "BAk-end",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon [app.js]"
+  },
+  "keywords": [
+    "Node",
+    "postgres"
+  ],
+  "author": "Airan Franco",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "helmet": "^5.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.21.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "nodemon": "^2.0.18",
+    "prettier": "^2.7.1"
+  }
+}

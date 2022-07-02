@@ -1,0 +1,12 @@
+.main-Section {
+    background-color: rgb(93, 143, 108);
+    color: white;
+}
+.tabla-content 
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: scroll;
+}
